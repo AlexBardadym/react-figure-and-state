@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import Block from './components/block/block';
 import Input from './components/input/input';
 import figureStyles from './components/block/block-style'

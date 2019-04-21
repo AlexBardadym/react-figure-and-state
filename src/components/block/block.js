@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './block.css';
+import './block.scss';
 
 
 
