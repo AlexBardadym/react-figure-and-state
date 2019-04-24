@@ -1,23 +1,14 @@
-import React, { Component } from 'react';
-import './App.scss';
-import Block from './components/block/block';
-import Input from './components/input/input';
-import figureStyles from './components/block/block-style'
-
+import React, { Component } from "react";
+import "./App.scss";
+import ButtonTable from "./components/button-table/button-table";
+import "materialize-css/dist/css/materialize.min.css";
 
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
-        <p>Diferent figure by props</p>
-        <Block figure={figureStyles.square} />
-        <Block figure={figureStyles.circle} />
-        <Block figure={figureStyles.triangle} />
-        <hr></hr>
-        <p>Change component by state</p>
-        <Input />
-        <Input />
-        <Input />
+        <ButtonTable />
+        <ButtonTable />
       </div>
     );
   }
